@@ -1,3 +1,10 @@
+/* adicionado */ 
+:root
+{
+    --cor-principal: rgb(255, 83, 83);
+    --cor-principal-escura: rgb(207, 65, 65);
+}
+
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -28,7 +35,7 @@ img{
 
 .logo-text{
     text-transform: uppercase;
-    background-color: #63c6ae;
+    background-color: var(--cor-principal);
     font-size: 24px;
     margin: 0;
     padding: 20px;
@@ -64,7 +71,8 @@ img{
     transition: .8s ease;
 }
 .header__nav a:hover {
-    color: #63c6ae;   
+    /* Modificado */
+    color: var(--cor-principal);  
 }
 .header__btnMenu{
     float: right;
@@ -114,10 +122,6 @@ img{
 .js .laptop-slider .next{
     right: 10px;
 }
-
-
-
-
 
 .js .quote-slideshow{
     position: relative;
@@ -176,12 +180,14 @@ img{
 }
 
 .hero__title{
-    background-color: #63c6ae;
     color: white;
     font-size: 28px;
     font-weight: 600;
     padding: 30px 20px;
     text-transform: uppercase;
+
+    /* Modificado */
+    background-color: var(--cor-principal);
 }
 
 .hero__text{
@@ -213,18 +219,31 @@ img{
 }
 
 .people-cards__card{
-    
+    /* Adicionado */
+    transition: 500ms ease-in-out;
+    margin-bottom: 30px;
 }
 .people-cards__card:hover{
+    /* Removido
     outline: 5px solid #63c6ae;
     outline-offset: -5px;
+    */
+
+    /* Adicionado*/
+    box-shadow: 10px 10px 10px rgb(218, 218, 218);
+    transition: 500ms ease-in-out;
 }
 .people-cards__card:hover .people-cards__avatar img{
-    transform: translateY(-50%);
+    /*  Removido
+        transform: translateY(-50%);
+    */
 }
+
 .people-cards__card:hover .people-cards__title,
 .people-cards__card:hover .people-cards__text{
+    /*  Removido
     color: #63c6ae;
+    */
 }
 
 .people-cards__image{
@@ -236,6 +255,9 @@ img{
     width: 88px;
     height: 88px;
     overflow: hidden;
+
+    /* Adicionado */
+    border-radius: 50px;
 }
 .people-cards__content{
     text-align: center;
@@ -285,8 +307,9 @@ img{
     background-color: #929da5;
 }
 .button-primary{
-    background-color: #69c6ae;
     color: white;
+    /* Modificado */
+    background-color: var(--cor-principal);
 }
 .button-secundary{
     background-color: #455357;
@@ -296,8 +319,9 @@ img{
 
 
 .last-articles__title{
-    background-color: #63c6ae;
     padding: 5px 0;
+    /* Modificado */
+    background-color: var(--cor-principal);
 }
 
 .last-articles__title h2{
@@ -338,9 +362,11 @@ img{
 
 
 .quote-container{
-    background-color: #63c6ae;
     padding: 50px 0;
-    border-bottom: 12px solid #48b9a1;
+
+    /* Modificado */
+    background-color: var(--cor-principal);
+    border-bottom: 12px solid var(--cor-principal-escura);
 }
 
 .quote-slideshow h2{
@@ -363,9 +389,11 @@ img{
 
 .footer{
     background-color: #242a2c;
-    padding: 50px 0 250px;
     color: #454e51;
     font-size: 14px;
+
+    /* Modificado */
+    padding: 50px 0 100px;
 }
 
 .footer__links li{
