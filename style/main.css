@@ -1,4 +1,4 @@
-/* adicionado */ 
+/* Adicionado variaveis de cor */ 
 :root
 {
     --cor-principal: rgb(255, 83, 83);
@@ -35,7 +35,6 @@ img{
 
 .logo-text{
     text-transform: uppercase;
-    background-color: var(--cor-principal);
     font-size: 24px;
     margin: 0;
     padding: 20px;
@@ -45,6 +44,8 @@ img{
     color: #fff;
     float: left;
     text-align: right;
+    /* Variavel cor principal adicionada */
+    background-color: var(--cor-principal);
 }
 
 .header__nav{
@@ -71,7 +72,7 @@ img{
     transition: .8s ease;
 }
 .header__nav a:hover {
-    /* Modificado */
+    /* Variavel cor principal adicionada */
     color: var(--cor-principal);  
 }
 .header__btnMenu{
@@ -165,7 +166,7 @@ img{
 
 
 .hero{
-    height: 80vh;
+    
     padding: 40px 20px;
     text-align: center;
     display: flex;
@@ -177,6 +178,9 @@ img{
                 linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat, 
                 url(../img/01.jpg);
     background-size: 40px 40px, 40px 40px, cover;
+
+    /* Altura aumentada */
+    height: 85vh;
 }
 
 .hero__title{
@@ -186,7 +190,7 @@ img{
     padding: 30px 20px;
     text-transform: uppercase;
 
-    /* Modificado */
+    /* Variavel cor principal adicionada */
     background-color: var(--cor-principal);
 }
 
@@ -229,10 +233,10 @@ img{
     outline-offset: -5px;
     */
 
-    /* Adicionado*/
+    /* Adicionado transição com sombras ao passar o mouse por cima */
     box-shadow: 3px 3px 10px rgb(218, 218, 218);
     transition: 500ms ease-in-out;
-}
+} 
 .people-cards__card:hover .people-cards__avatar img{
     /*  Removido
         transform: translateY(-50%);
@@ -307,7 +311,7 @@ img{
 }
 .button-primary{
     color: white;
-    /* Modificado */
+    /* Variavel cor principal adicionada */
     background-color: var(--cor-principal);
 }
 .button-secundary{
@@ -319,7 +323,7 @@ img{
 
 .last-articles__title{
     padding: 5px 0;
-    /* Modificado */
+    /* Variavel cor principal adicionada */
     background-color: var(--cor-principal);
 }
 
@@ -363,8 +367,9 @@ img{
 .quote-container{
     padding: 50px 0;
 
-    /* Modificado */
+    /* Variavel cor principal adicionada */
     background-color: var(--cor-principal);
+    /* Variavel cor principal escura adicionada */
     border-bottom: 12px solid var(--cor-principal-escura);
 }
 
@@ -391,7 +396,7 @@ img{
     color: #454e51;
     font-size: 14px;
 
-    /* Modificado */
+    /* Padding diminuido */
     padding: 50px 0 100px;
 }
 

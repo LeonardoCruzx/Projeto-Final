@@ -13,11 +13,13 @@
         <link href='http://fonts.googleapis.com/css?family=Sintony:400,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
         
+        
+
+        <!-- Fade CSS Adicionado -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
         <link rel="stylesheet" href="style/normalize.css">
         <link rel="stylesheet" href="style/main.css">
-
-        <!-- CSS Adicionado -->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       
     </head>
     <body class="no-js">
@@ -50,7 +52,13 @@
 
         <div class="container">
             <section class="people-cards">
-            <article class="people-cards__card" >               
+
+              <!-- Adicionado fade-->
+            <article class="people-cards__card" 
+              data-aos="fade-up"
+              data-aos-offset="100"
+              data-aos-duration="1000"
+            >               
 
                 <img src="img/c01.jpg" alt="Carousel Img" class="people-cards__image" >
 
@@ -62,8 +70,13 @@
                   <p class="people-cards__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa.</p>
                 </div>
             </article>
-            
-            <article class="people-cards__card">               
+
+            <!-- Adicionado fade-->
+            <article class="people-cards__card" 
+              data-aos="fade-up"
+              data-aos-offset="100"
+              data-aos-duration="900"
+            >                 
 
                 <img src="img/c02.jpg" alt="Carousel Img" class="people-cards__image">
 
@@ -76,7 +89,12 @@
                 </div>
             </article>
             
-            <article class="people-cards__card">               
+            <!-- Adicionado fade-->
+            <article class="people-cards__card" 
+              data-aos="fade-up"
+              data-aos-offset="100"
+              data-aos-duration="1100"
+            >                 
 
                 <img src="img/c03.jpg" alt="Carousel Img" class="people-cards__image">
 
@@ -89,7 +107,12 @@
                 </div>
             </article>
             
-            <article class="people-cards__card">               
+            <!-- Adicionado fade-->
+            <article class="people-cards__card" 
+              data-aos="fade-up"
+              data-aos-offset="100"
+              data-aos-duration="800"
+            >                  
 
                 <img src="img/c04.jpg" alt="Carousel Img" class="people-cards__image">
 
@@ -108,27 +131,25 @@
         <section class="content">
         <div class="container">
         
-          <!-- Adicionado -->
+          <!-- Adicionado fade-->
           <article 
             data-aos="fade-right"
             data-aos-offset="200"
             data-aos-duration="1000"
           >
-          <!-- Adicionado -->
             <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. Nullam condimentum mauris et rhoncus sagittis. Sed eu metus in diam tincidunt egestas non at odio. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>            
             <a href="#" class="button button-primary">BUTTON</a>
             <a href="#" class="button button-secundary">BUTTON</a>
           </article>
           
-          <!-- Adicionado -->
+          <!-- Adicionado fade-->
           <article 
               data-aos="fade-left"
               data-aos-offset="200"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
             >
-          <!-- Adicionado -->
             <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. Nullam condimentum mauris et rhoncus sagittis. Sed eu metus in diam tincidunt egestas non at odio.</p>
             <p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean vitae lectus erat. Duis consequat laoreet velit. Mauris convallis, sapien sit amet scelerisque accumsan, felis urna aliquet nunc, viverra mollis odio tellus a nisl. Nulla lobortis lectus non rutrum viverra. Sed et molestie libero. Sed ut ultrices dui.</p>
