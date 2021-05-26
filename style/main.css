@@ -230,7 +230,7 @@ img{
     */
 
     /* Adicionado*/
-    box-shadow: 10px 10px 10px rgb(218, 218, 218);
+    box-shadow: 3px 3px 10px rgb(218, 218, 218);
     transition: 500ms ease-in-out;
 }
 .people-cards__card:hover .people-cards__avatar img{
@@ -256,8 +256,7 @@ img{
     height: 88px;
     overflow: hidden;
 
-    /* Adicionado */
-    border-radius: 50px;
+
 }
 .people-cards__content{
     text-align: center;
