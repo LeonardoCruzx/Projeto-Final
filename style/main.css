@@ -20,11 +20,17 @@ img{
     padding-left: 1em;
     padding-right: 1em;
     max-width: 980px;
+
+    /* Não aumenta o tamanho da tela por causa da animação fade */
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .header{
     background: #fff;
     width: 100%;
+    /* Adicionado sombra a navbar */
+    box-shadow: 0px 2px 5px rgb(211, 211, 211);
 }
 
 .js .header{
@@ -223,8 +229,8 @@ img{
 }
 
 .people-cards__card{
-    /* Adicionado */
-    transition: 500ms ease-in-out;
+    /* Adicionado transição de volta */
+    transition: 500ms ease-in-out !important;
     margin-bottom: 30px;
 }
 .people-cards__card:hover{
