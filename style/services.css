@@ -1,45 +1,11 @@
-.hero-services
-{
-    padding: 40px 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    background: linear-gradient(45deg, white 50%, transparent 50%) left calc(50% + 20px) bottom no-repeat, 
-                linear-gradient(-45deg, white 50%, transparent 50%) left calc(50% - 20px) bottom no-repeat, 
-                url(../img/01.jpg);
-    background-size: 40px 40px, 40px 40px, cover;
-
-    height: 85vh;
-}
-
-.hero-services__title{
-    color: white;
-    font-size: 28px;
-    font-weight: 600;
-    padding: 30px 20px;
-    text-transform: uppercase;
-
-    background-color: var(--cor-principal);
-
-    margin-top: -9%;
-}
-
 .services
 {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 0.5em;
+    margin-top: 7.5em;
 }
 
-.services-cards-container
-{
-    margin-top: -5%;
-    
-}
 
 .our-services
 {
@@ -47,9 +13,9 @@
     font-weight: bold;
     font-size: 26px;
     border-radius: 5px;
-    color: black;
 }
 .services-cards{
+    margin-top: 2.5em;
     margin-bottom: 2.5em;
 }
 
@@ -61,11 +27,10 @@
     border: 1px solid rgb(221, 221, 221);
     margin-top: 1em;
     margin-bottom: 1em;
-    background-color: white;
 }
 .services-cards__card:hover
 {
-    box-shadow: 3px 3px 10px rgb(211, 211, 211);
+    box-shadow: 3px 3px 10px rgb(189, 189, 189);
     transition: 500ms ease-in-out;
 }
 
@@ -92,13 +57,5 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 30px;
-    }
-    .services-cards-container
-    {
-        margin-top: -22%;
-    }
-    .our-services
-    {
-        color: white;
     }
 }
