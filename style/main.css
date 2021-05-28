@@ -345,11 +345,38 @@ img{
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-auto-rows: auto;
     grid-gap: 0;
-    background: yellow;
+    background: rgb(43, 43, 43);
 }
 .last-articles__thumbs img{
-    display: block;
+    display: flex;
     width: 100%;
+
+    /* Adicionado maximo e minimo do tamanho de imagens */
+    min-height: 200px;
+    max-height: 200px;
+}
+
+/* Adicionado descrição aos last articles */
+.last-articles__thumb-description{
+    color: white;
+    opacity: 0;
+    text-decoration: none;
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 50px;
+    transition: 500ms ease-in-out;
+}
+/* Ao passar o mouse por cima a imagem perde opacidade */
+.last-articles__thumb:hover
+{
+    transition: 500ms ease-in-out;
+    opacity: 0.2;
+}
+
+/* Ao passar o mouse por cima a descrição ganha opacidade */
+.last-articles__thumb:hover ~ .last-articles__thumb-description{
+    opacity: 1;
+    transition: 500ms ease-in-out;
 }
 
 
