@@ -1,0 +1,56 @@
+.container
+{
+    margin-bottom: 1em;
+}
+.about-us-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 7.5em;
+}
+
+
+.about-us
+{
+    border-bottom: 16px solid var(--cor-principal-escura);
+    font-weight: bold;
+    font-size: 26px;
+    border-radius: 5px;
+
+}
+
+.about-us-history
+{
+    margin-bottom: 7em;
+}
+
+.about-us-history__img-left
+{
+    width: 100%;
+}
+
+.about-us-history__img-right
+{
+    width: 100%;
+}
+
+
+@media screen and (min-width: 1024px){
+    .about-us-history__img-left
+    {
+        float: left;
+        margin-right: 1em;
+        border: 1px solid rgb(218, 218, 218);
+        max-width: 200px;
+        min-width: 200px;
+    }
+    .about-us-history__img-right
+    {
+        float: right;
+        border: 1px solid rgb(218, 218, 218);
+        max-width: 200px;
+        min-width: 200px;
+        
+    }
+}
