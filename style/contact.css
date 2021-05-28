@@ -1,0 +1,99 @@
+.contact-section
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5.5em;
+}
+
+.contact
+{
+    border-bottom: 16px solid var(--cor-principal-escura);
+    font-weight: bold;
+    font-size: 26px;
+    border-radius: 5px;
+
+}
+
+.contact-section-two
+{
+    background-color: var(--cor-principal);
+    border-radius: 10px 10px 0 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-form
+{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.email-img
+{
+    width: 75%;
+}
+
+
+input
+{
+    width: 100%;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+    
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+textarea
+{
+    width: 100%;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+    
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+input:focus
+{
+    background-color: rgb(236, 236, 236);
+}
+
+.submit-form-button
+{
+    width: 100%;
+    background-color: var(--cor-principal-escura);
+    padding: 16px 32px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.submit-form-button:hover
+{
+    box-shadow: 2px 2px 10px rgb(255, 63, 63);
+}
+
+.submit-form-button:active
+{
+    background-color: rgb(255, 45, 45);
+}
+
+@media screen and (min-width: 1024px){
+    .email-img-section
+    {
+        float: left;
+        width: 40%;
+        margin-left: 6em;
+    }
+    .contact-form__section
+    {
+        display: inline-block;
+        width: 40%;
+    }
+}

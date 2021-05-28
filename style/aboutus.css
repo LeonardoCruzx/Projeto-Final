@@ -1,13 +1,9 @@
-.container
-{
-    margin-bottom: 1em;
-}
-.about-us-container
+.about-us-section
 {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 7.5em;
+    margin-top: 5.5em;
 }
 
 
