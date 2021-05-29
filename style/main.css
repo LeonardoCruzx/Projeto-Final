@@ -2,7 +2,7 @@
 :root
 {
     --cor-principal: rgb(255, 83, 83);
-    --cor-principal-escura: rgb(207, 65, 65);
+    --cor-principal-escura: rgb(189, 46, 46);
 }
 
 body{
@@ -74,7 +74,7 @@ img{
     font-size: 14px;
     font-weight: 600;
     display: block;
-    padding: 28px 0;
+    padding: 27.5px 0;
     transition: .8s ease;
 }
 .header__nav a:hover {
