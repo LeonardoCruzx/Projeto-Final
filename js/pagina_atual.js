@@ -13,6 +13,7 @@ function pegar_pagina_atual()
         if (window.location.pathname.includes(elemento))
         {
             pagina_atual = elemento.toString();
+            return;
         }
     });
     return pagina_atual
