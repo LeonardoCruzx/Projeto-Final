@@ -64,6 +64,11 @@ input:focus
     background-color: rgb(236, 236, 236);
 }
 
+label
+{
+    font-weight: 600;
+}
+
 .submit-form-button
 {
     width: 100%;
@@ -72,6 +77,8 @@ input:focus
     text-decoration: none;
     border: none;
     border-radius: 5px;
+    font-weight: 600;
+    font-size: 22px;
 }
 
 .submit-form-button:hover
@@ -95,5 +102,9 @@ input:focus
     {
         display: inline-block;
         width: 40%;
+    }
+    .email-img
+    {
+        width: 75%;
     }
 }

@@ -24,22 +24,22 @@
 
 </head>
 
-<body class="no-js">
+<body class="no-js" onload="setar_cor_botao_menu()">
+        
     <header class="header">
-        <a href="index.html" class="logo-text">Infusion</a>
-
-        <button style="display: none;" class="header__btnMenu"> <i class="fas fa-bars fa-2x"></i> <span
-                class="sr-only">Menu</span></button>
-
-        <nav class="header__nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="articles.html">Articles</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+      <a href="index.html" class="logo-text">Infusion</a>
+      
+      <button style="display: none;" class="header__btnMenu"> <i class="fas fa-bars fa-2x"></i> <span class="sr-only">Menu</span></button>
+      
+      <nav class="header__nav">
+        <ul>
+          <li><a href="index.html" id="index">Home</a></li>
+          <li><a href="services.html" id="services">Services</a></li>
+          <li><a href="articles.html" id="articles">Articles</a></li>
+          <li><a href="aboutus.html" id="aboutus">About Us</a></li>
+          <li><a href="contact.html" id="contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     
@@ -149,6 +149,8 @@
     <script src="js/menu.js"></script>
 
     <script src="js/main.js"></script>
+
+    <script src="js/pagina_atual.js"></script>
 </body>
 
 </html>
